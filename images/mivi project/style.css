@@ -1,0 +1,1048 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main-one{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke
+    
+    
+}
+.first-section{
+    height: 110px;
+    width: 100%;
+    background-color: #303642;
+    
+    
+}
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.sections p{
+    font-size: 20px;
+    margin: 12px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.left-section{
+    height: 2rem;
+    background-color: rgb(54, 56, 51);
+    color: whitesmoke;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+    padding-right: 20px;
+    border: 1px solid rgb(54, 56, 51);
+    margin-right: 2px;
+
+}
+
+
+
+
+.right-section{
+    height: 2rem;
+    background-color: rgb(54, 56, 51);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    color: whitesmoke;
+    
+}
+
+.nav-bar nav{
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+    
+
+}
+.nav-bar img{
+    margin-left: 200px;
+    margin-right: 100px;
+    
+    
+    
+   
+    
+}
+.nav-bar ul{
+   
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+.nav-bar ul li{
+    padding-right: 70px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.nav-bar i{
+    
+    color: #ffffff;
+    
+    padding-right: 25px;
+}
+.nav-bar a{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.carousel-inner img{
+   
+    height: 620px;
+    width: 100%;  
+    background-size:cover;
+    padding-bottom: 100px;
+            
+}
+
+
+
+
+
+
+
+/*----------------------------- part-2 ---------------------------------------------------------------*/
+
+
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+  .swiper-slide {
+    
+    font-size: 18px;
+    background: #fff;
+    height: 600px;
+   
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+.mainbox-2 {
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+.section{
+    height: 160px;
+    width: 50%;
+    margin: auto;    
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    text-align: center;
+        
+   
+
+   }
+   .section h1{
+       color: grey;
+   }
+
+   .section p{
+       height: 100px;
+       font-size: 21px;
+       color: rgb(72, 73, 85, 0.6);
+       margin: 30px 0;
+       font-weight: 600;
+   }
+
+
+  
+
+
+
+.porduct-card{
+    
+    height: 550px;
+    margin-top: 40px;     
+    max-width: 400px;
+    width:100%;     
+    background-color: #fafafa;
+    padding: 20px 100px 30px 20px;
+            
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+   
+
+.porduct-card .main-images img{
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+    
+}
+
+
+
+.porduct-card .content h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #484955;
+    letter-spacing: 1px;
+
+}
+.porduct-card .content p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(72, 73, 85);
+    margin: 20px 0;
+    
+}
+.porduct-card .content span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(72, 73, 85, 0.6);
+    text-decoration:line-through;
+    
+}
+.porduct-card .list{
+    margin-left: 20px;
+    
+    
+}
+.porduct-card .list ul{
+   color: rgb(13, 226, 31);
+   font-size: 24px;
+   line-height: 13px;
+   margin-top: 20px;        
+}
+
+.porduct-card .list ul li{
+   
+   margin-top: 10px;    
+}
+    
+    
+
+.porduct-card .list ul li a{
+   text-decoration: none;   
+   font-size: 14px;
+   font-weight: 450;
+   color: rgb(72, 73, 85, 0.6);
+   
+}
+.porduct-card .color{
+   font-size: 15px;
+   font-weight: 500;
+   color: rgb(72, 73, 85, 0.6);
+   margin-top: 20px;
+   display: flex;
+}
+
+.porduct-card .color .color-select{
+   display: flex;
+   margin-left: 10px;
+   
+}
+
+.porduct-card .color .color-select .color{
+   height: 24px;
+   width: 24px;
+   
+   border-radius: 50%;
+   margin: 0 4px;
+   
+   
+}
+.porduct-card .color .color-select .color.whith{
+   background-color: rgb(255, 255, 255);
+   border:1px solid rgb(148, 146, 146);
+
+}
+.porduct-card .color .color-select .color.red{
+   background-color: #bc414c;
+}
+.porduct-card .color .color-select .color.blue{
+   background-color: #6bb3b8;
+}
+.porduct-card .color .color-select .color.black{
+   background-color:  #000;
+}
+.shop-now{
+   font-size: 15px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: rgb(72, 73, 85, 1.0);
+   margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------- Page-03-------------------------------------------------------------------------------- */
+
+.box-3{
+    height: 110vh;
+    width: 100%;
+    
+}
+.box-para{
+    height: 300px;
+    width: 100%;
+    background-color: #50586A;
+    margin-top: 300px;
+    position: absolute;
+    -webkit-box-shadow: inset 0px -3px 86px 14px rgba(0,0,0,0.53);
+-moz-box-shadow: inset 0px -3px 86px 14px rgba(0,0,0,0.53);
+box-shadow: inset 0px -3px 86px 14px rgba(0,0,0,0.53);
+    
+    
+}
+.box-para h1{
+    font-weight: bold;
+    
+   
+   
+    color: #00ff00;
+    
+        
+}
+
+
+.box-para{
+    height: 325px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+ .coallr {
+    height: 460px;
+    width: 420px ;
+    background-color:#f3f3f3 ;
+    
+    margin-left: 300px;
+    background-image: url();
+    margin-left: 50px;
+    -webkit-box-shadow: 0px 43px 26px -33px rgba(184,184,184,1);
+-moz-box-shadow: 0px 43px 26px -33px rgba(184,184,184,1);
+box-shadow: 0px 43px 26px -33px rgba(184,184,184,1);
+    
+}
+
+.coallr img{
+    margin-left: 50px;
+}
+
+
+.coallr h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: #484955;
+    letter-spacing: 1px;
+    margin-left: 20px;
+
+}
+
+.coallr p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(72, 73, 85);
+    margin-left: 20px;
+}
+
+.coallr span{
+     text-decoration: line-through;
+     padding-left: 20px;
+     font-size: 18px;
+    
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+    /*================================== page-04======================================== */
+    /*================================== page-04======================================== */
+    /*================================== page-04======================================== */
+    /*================================== page-04======================================== */
+    /*================================== page-04======================================== */
+
+
+
+.box-4{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+
+.sectionsoundbar{
+    width: 70%;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.soundbar{
+    height: 600px;
+    width: 450px ;
+    background-color:#F6F6F7;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+   
+  
+}
+.soundbar .sound-img img{
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+
+
+
+.sectionsoundbar .content h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #484955;
+    letter-spacing: 1px;
+
+}
+.soundbar .content p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(72, 73, 85);
+    margin: 20px 0;
+    
+}
+.soundbar .content span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(72, 73, 85, 0.6);
+    text-decoration:line-through;
+
+}
+
+
+
+.sectionsoundbar ul{
+   color: rgb(27, 223, 1);
+   font-size: 24px;
+   line-height: 13px;
+   margin-top: 20px;        
+}
+
+.soundbar .list ul li{
+   
+   margin-top: 10px;    
+}
+    
+    
+
+.soundbar .list ul li a{
+   text-decoration: none;   
+   font-size: 16px;
+   font-weight: 500;
+   color: rgb(72, 73, 85, 0.6);
+   
+}
+
+.soundbar .color{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(72, 73, 85, 0.6);
+    margin-top: 20px;
+    display: flex;
+ }
+ 
+ .soundbar .color .color-select{
+    display: flex;
+    margin-left: 10px;
+    
+ }
+ 
+ .soundbar .color .color-select .color{
+    height: 26px;
+    width: 26px;
+    
+    border-radius: 50%;
+    margin: 2px 4px;
+    
+    
+ }
+
+ .soundbar .color .color-select .color.whith{
+    background-color: rgb(0, 0, 0);
+    border:1px solid rgb(228, 226, 226);
+
+ }
+
+
+
+
+
+
+
+ /* ===================================page=06============================== */
+ /* ===================================page=06============================== */
+ /* ===================================page=06============================== */
+ /* ===================================page=06============================== */
+ /* ===================================page=06============================== */
+
+
+
+
+
+
+
+ 
+
+.box-6{
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+
+
+
+
+.wirelessbar{
+    width: 95%;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+.soundbar{
+    height: 600px;
+    width: 450px ;
+    background-color:#F6F6F7;
+    padding-left: 30px;
+    padding-right: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    
+   
+  
+}
+.soundbar .sound-img img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+
+}
+
+
+
+
+.wirelessbar .content h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #484955;
+    letter-spacing: 1px;
+
+}
+.soundbar .content p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(72, 73, 85);
+    margin: 20px 0;
+    
+}
+.soundbar .content span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: rgb(72, 73, 85, 0.6);
+    text-decoration:line-through;
+
+}
+
+
+
+.wirelessbar ul{
+   color: rgb(27, 223, 1);
+   font-size: 24px;
+   line-height: 13px;
+   margin-top: 20px;        
+}
+
+.soundbar .list ul li{
+   
+   margin-top: 10px;    
+}
+    
+    
+
+.soundbar .list ul li a{
+   text-decoration: none;   
+   font-size: 16px;
+   font-weight: 500;
+   color: rgb(72, 73, 85, 0.6);
+   
+}
+
+.soundbar .color{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(72, 73, 85, 0.6);
+    margin-top: 20px;
+    display: flex;
+ }
+ 
+ .soundbar .color .color-select{
+    display: flex;
+    margin-left: 10px;
+    
+ }
+ 
+ .soundbar .color .color-select .color{
+    height: 26px;
+    width: 26px;
+    
+    border-radius: 50%;
+    margin: 2px 4px;
+    
+    
+ }
+
+ .soundbar .color .color-select .color.whith{
+    background-color: rgb(0, 0, 0);
+    border:1px solid rgb(228, 226, 226);
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*=============================== page=8===================================== */
+ /*=============================== page=8===================================== */
+ /*=============================== page=8===================================== */
+ /*=============================== page=8===================================== */
+ /*=============================== page=8===================================== */
+
+
+
+
+
+ .page08{
+     height: 100vh;
+     width: 80%;
+     margin: auto;
+     
+ }
+
+ .shopbar{
+     
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+ .shopbar .Speakers{
+     height: 180px;
+     width: 47%;
+    
+     
+     margin-bottom: 20px;
+     background-image: url(./Images/SHOP\ CHARGERS.png);
+     background-size:cover;   
+ }
+ .shopbar .Earphones{
+     height: 180px;
+     width: 47%;
+    
+     
+     margin-bottom: 20px;
+     background-image: url(./Images/earphones.png);
+     background-size:cover;   
+ }
+ .shopbar .chargers{
+     height: 180px;
+     width: 47%;
+    
+     
+     margin-bottom: 20px;
+     background-image: url(./Images/homepage-product-image.png);
+     background-size:cover;
+       
+ }
+ .shopbar .soundbars{
+     height: 180px;
+     width: 47%;
+    
+     
+     margin-bottom: 20px;
+     background-image: url(./Images/category-speaker-banner.png);
+     
+      
+ }
+
+
+
+
+
+
+
+ .shopbar h1{
+     font-size: 22px;
+     font-weight: bolder;
+     color: rgb(255, 255, 255);
+     margin-top: 130px;
+     margin-left: 20px;
+    
+     
+ }
+
+
+
+/* ==============================================page=09============================================ */
+/* ==============================================page=09============================================ */
+/* ==============================================page=09============================================ */
+/* ==============================================page=09============================================ */
+/* ==============================================page=09============================================ */
+
+.page-9{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+.section span img{
+    height: 40px;
+    width: 40px;
+}
+
+.section h1{
+    color: #00ff00;
+    font-weight: 700;
+}
+
+
+.relative{
+    
+    
+    display: flex;
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+.relative section{
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.relative section img{
+    height: 370px;
+    width: 370px;
+    position: absolute;
+
+}
+
+.relative section p{
+
+    font-size: 20px;
+    margin-top: 10px;
+    width: 80%;
+    font-weight: 600;
+    color: #484955;
+    opacity: 0.8;
+
+}
+
+.relative section h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #484955;
+}
+
+
+
+
+/*===========================================page-10======================================== */
+/*===========================================page-10======================================== */
+/*===========================================page-10======================================== */
+/*===========================================page-10======================================== */
+/*===========================================page-10======================================== */
+
+
+
+.page-10{
+    height: 82vh;
+    width: 100%;
+    background-color: #50576A;
+}
+
+.full-bar{
+    
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+.full-bar h1{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.full-bar p{
+    font-size: 15px;
+    padding-top: 30px;
+    color: rgb(187 189 200);
+}
+
+.cutomer{
+    height: 200px;
+    width: 250px;
+    
+    margin-top: 17px;
+    
+    
+    
+    
+}
+.customer-care{
+    display: flex;
+    margin-top: 40px;
+       
+    
+
+}
+.contect-bar{
+    padding-left: 20px;
+    border-bottom: 1px solid #484955;
+}
+
+.customer-care h6{
+    font-size: 5px;
+    font-weight: 600;
+    line-height: 2px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+     color: rgb(187 189 200);;
+}
+
+.customer img{
+    height: 50px;
+    width: 50px;
+
+}
+
+ .mail-icon{
+    height: 25px;
+    width: 42px;
+}
+.customer-care h1{
+    margin-left: 10px;
+}
+
+
+.warranty{
+    height: 200px;
+    width: 180px;
+    
+    margin: 20px;
+}
+
+
+    
+
+
+
+.product-help{
+    height: 200px;
+    width: 180px;
+    
+    margin: 20px;
+
+}
+
+
+.about-us{
+    height: 200px;
+    width: 250px;
+    
+    margin: 20px;
+
+
+}
+
+.media-bar{
+    height: 120px;
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #484955;
+}
+
+.media-bar .meadia-1{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: #686e7d
+   
+
+
+}
+
+.media-bar .meadia-1 i{
+    font-size: 30px;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+
+.media-bar button{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fafafa;
+    background-color: #686e7d
+}
+
+.footer-bar{
+    height: 100px;
+    
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    color: #9fa3af;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
